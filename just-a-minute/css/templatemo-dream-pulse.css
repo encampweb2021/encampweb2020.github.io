@@ -45,7 +45,7 @@ a {
 }
 
 .tm-bg-white-transparent {
-  background-color: rgba(173, 216, 230, 0.3);
+  background-color: rgba(173, 216, 230, 0.85);
   border: 1px solid white;
 }
 
@@ -54,7 +54,7 @@ a {
   width: 100%;
   padding: 55px;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 100px;
   justify-content: center;
 }
 
