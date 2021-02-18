@@ -58,6 +58,8 @@ a {
 }
 
 .tm-section-title {
+  text-align: center;
+  padding-right:8px ;
   font-size: 1.6rem;
 }
 
