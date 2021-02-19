@@ -135,7 +135,7 @@ a {
   overflow-y: scroll;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE 10+ */
-  background-color: rgba(161, 67, 54, 0.514);
+  background-color: #941022c9;
 }
 .tm-sidebar::-webkit-scrollbar {
   /* WebKit */
