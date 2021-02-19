@@ -32,6 +32,9 @@ color:wheat;
 {
   font-family: 'Alegreya Sans';
   font-size: 22px;
+  color:rgb(13, 9, 58);
+  font-weight: bold;
+  
 
 }
 
@@ -50,11 +53,16 @@ font-family: 'Alegreya Sans';
   color:rgb(15, 15, 70);
 
 }
+
+.mb-4,.mb-3
+{
+  text-align: center;
+}
 #topic
 {
  font-family: Bevan;
  font-size:22px;
- color:rgb(143, 35, 16);
+ color: rgb(122, 39, 0);
 }
 .tm-bg-white-transparent {
 background-color: rgba(26, 34, 51, 0.74);
@@ -130,6 +138,11 @@ a {
   max-width: none;
 }
 
+#video
+{
+  max-width:100%;
+  padding-bottom: 0%;
+}
 .tm-brand {
   font-size: 2.6rem;
 }
@@ -138,11 +151,12 @@ a {
   box-sizing: content-box;
   width: 100%;
   max-width: 230px;
-  min-height: 160px;
+  
   color: white;
   text-align: center;
   margin: 70px auto 90px;
 }
+
 
 .tm-double-border-1,
 .tm-double-border-2 {
@@ -150,6 +164,10 @@ a {
   position: relative;
 }
 
+.nav-item
+{
+  font-family: 'Alegreya Sans';
+}
 .tm-double-border-2 {
   top: 10px;
   left: 10px;
@@ -290,8 +308,14 @@ a {
 .tm-section-half {
   padding-left:auto;
   padding-right:0;
+  text-align: center;
 }
 
+
+#guides
+{
+  text-align: left;
+}
 .tm-section-icon {
   color: #369;
   width: 120px;
@@ -300,6 +324,7 @@ a {
   align-items: center;
   justify-content: center;
 }
+
 
 /* Our Work */
 
@@ -315,6 +340,13 @@ a {
   }
 }
 
+@media (min-width: 1200px) {
+  .col-xl-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
 @media (max-width: 1200px) {
   .tm-gallery-wrap {
     max-width: 520px;
