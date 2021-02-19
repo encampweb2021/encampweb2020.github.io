@@ -12,7 +12,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   color: #317bc5;
-  background-color: rgb(52, 128, 204);
+  background-color: white);
 }
 
 p {
@@ -42,6 +42,22 @@ a {
 
 .tm-bg-black-transparent {
   background-color: rgba(0, 0, 0, 0.3);
+}
+.center {
+  width: 60%; 
+    margin: 0 auto;
+    display: flex;
+    
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+    
+}
+@media(max-width: 530px;){
+  .center{
+    width:50%;
+  }
 }
 
 .tm-bg-white-transparent {
@@ -151,6 +167,9 @@ a {
   width: calc(100% - 400px);
   margin-left: auto;
   margin-right: 0;
+}
+.tm-section-wrapbg-white {
+bottom:10px;
 }
 
 .tm-main-nav > li > a {
