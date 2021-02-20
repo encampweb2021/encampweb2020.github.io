@@ -56,7 +56,7 @@ a {
   padding: 55px;
   margin: auto;
   justify-content: center;
-  overflow-x: hidden;
+  overflow-x: hidden!important;
   opacity: 0.9;
 
 }
@@ -76,11 +76,13 @@ a {
   height: auto;
   max-width: 1275px;
   padding: 66px 60px;
+  overflow-x: hidden!important;
 }
 
 #intro {
   min-height: 100vh;
   max-width: none;
+  overflow-x: hidden!important;
 }
 
 .tm-brand {
@@ -101,6 +103,7 @@ a {
 .tm-double-border-2 {
   border: 1px solid #fff;
   position: relative;
+  
 }
 
 .tm-double-border-2 {
@@ -110,10 +113,11 @@ a {
 
 .tm-border-gray {
   border-color: white;
+ 
 }
 
 .tm-box-pad {
-  padding: 50px 55px;
+  padding: 30px 30px;
 }
 
 .tm-brand {
