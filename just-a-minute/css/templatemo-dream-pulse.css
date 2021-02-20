@@ -10,7 +10,7 @@ body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
-  overflow-x: hidden!important;
+  overflow-x: hidden;
   color: #707172;
   background-color: #666;
 }
@@ -26,6 +26,7 @@ a {
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
+  overflow-x: hidden;
 }
 
 .small {
