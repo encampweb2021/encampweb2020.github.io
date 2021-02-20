@@ -74,8 +74,8 @@ a {
   display: flex;
   align-items: center;
   height: auto;
-  max-width: 1275px;
-  padding: 66px 60px;
+  max-width: 1075px;
+  padding: 50px 50px;
   overflow-x: hidden!important;
 }
 
