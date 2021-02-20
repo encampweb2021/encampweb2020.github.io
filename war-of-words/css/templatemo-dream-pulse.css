@@ -11,6 +11,8 @@ h1{
   font-weight: bold;
 }
 
+
+
 #war
 {
  font-family: Bevan;
@@ -38,11 +40,16 @@ color:wheat;
 
 }
 
+#reg
+{
+  text-align: center;
+}
+
 #regs
 {
   font-family: 'Alegreya Sans';
   font-size: 22px;
-  text-align:left;
+  text-align: center;
 }
 
 #heading
@@ -88,6 +95,7 @@ a {
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
+  overflow-x: hidden;
 }
 
 .small {
@@ -103,7 +111,7 @@ a {
 }
 
 .tm-bg-black-transparent {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgb(26, 34, 51);
 }
 
 
@@ -655,13 +663,27 @@ figure.effect-bubba:hover p {
   }
 }
 
+#gform:link, #gform:visited {
+  background-color: rgb(26, 34, 51);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+#gform:hover, #gform:active {
+  background-color: rgb(105, 27, 16);
+}
+
 .navbar-toggler {
   display: none;
 }
 
 @media (max-width: 991px) {
   .tm-bg-black-transparent {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(26, 34, 51);
   }
 
   .tm-brand-box {

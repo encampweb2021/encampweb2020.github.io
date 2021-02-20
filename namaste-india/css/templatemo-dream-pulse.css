@@ -135,7 +135,7 @@ a {
   overflow-y: scroll;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE 10+ */
-  background-color: #941022dc;
+  background-color: #941022cc;
 }
 .tm-sidebar::-webkit-scrollbar {
   /* WebKit */
@@ -580,7 +580,7 @@ figure.effect-bubba:hover p {
 
 @media (max-width: 991px) {
   .tm-bg-black-transparent {
-    background-color: rgb(160, 14, 14);
+    background-color: #941022e5;
   }
 
   .tm-brand-box {
