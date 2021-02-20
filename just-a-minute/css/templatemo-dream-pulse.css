@@ -41,11 +41,12 @@ a {
 }
 
 .tm-bg-black-transparent {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(to right, grey, black);
+  opacity: 0.99;
 }
 
 .tm-bg-white-transparent {
-  background-color: rgba(173, 216, 230, 0.85);
+  background:rgba(135,206,235,0.5); 
   border: 1px solid white;
 }
 
@@ -56,6 +57,7 @@ a {
   margin: auto;
   justify-content: center;
   overflow-x: hidden;
+  opacity: 0.9;
 
 }
 
@@ -107,7 +109,7 @@ a {
 }
 
 .tm-border-gray {
-  border-color: red;
+  border-color: white;
 }
 
 .tm-box-pad {
