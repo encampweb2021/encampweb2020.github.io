@@ -41,11 +41,11 @@ a {
 }
 
 .tm-bg-black-transparent {
-  background-color: rgba(233, 105, 105, 0.527);
+  background-color: rgba(233, 105, 105, 0.342);
 }
 
 .tm-bg-white-transparent {
-  background-color: rgba(233, 105, 105, 0.555);
+  background-color: rgba(233, 105, 105, 0.301);
   border: 1px solid white;
 }
 
@@ -580,7 +580,7 @@ figure.effect-bubba:hover p {
 
 @media (max-width: 991px) {
   .tm-bg-black-transparent {
-    background-color: rgba(160, 14, 14, 0.712);
+    background-color: #941022e5;
   }
 
   .tm-brand-box {
