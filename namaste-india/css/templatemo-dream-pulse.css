@@ -45,7 +45,7 @@ a {
 }
 
 .tm-bg-white-transparent {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(233, 105, 105, 0.3);
   border: 1px solid white;
 }
 
@@ -94,13 +94,13 @@ a {
   text-align: center;
   margin: 70px auto 90px;
 }
-
+/*
 .tm-double-border-1,
 .tm-double-border-2 {
   border: 1px solid #fff;
   position: relative;
 }
-
+*/
 .tm-double-border-2 {
   top: 10px;
   left: 10px;
@@ -580,7 +580,7 @@ figure.effect-bubba:hover p {
 
 @media (max-width: 991px) {
   .tm-bg-black-transparent {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(211, 74, 74, 0.5);
   }
 
   .tm-brand-box {
