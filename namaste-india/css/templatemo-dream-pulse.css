@@ -580,7 +580,7 @@ figure.effect-bubba:hover p {
 
 @media (max-width: 991px) {
   .tm-bg-black-transparent {
-    background-color: rgba(90, 31, 31, 0.911);
+    background-color: #941022e5;
   }
 
   .tm-brand-box {
